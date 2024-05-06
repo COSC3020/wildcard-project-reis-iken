@@ -15,4 +15,4 @@ This semester, I came across a research article that has proven that the more pi
 
 With this said, I wanted to implement hexa-pivot (6-pivot) Quicksort, just to "1-up" this research article. It's nothing overly special - but not a lot of people have done it.
 
-My implementation is in code.js. Note that the average-case asymptotic time complexity remains $\O(nlogn)$, but the actual performance turns out to be faster than Quicksort implementations with fewer pivots.
+My implementation is in code.js. Note that the average-case asymptotic time complexity remains $O(nlogn)$, but the actual performance turns out to be faster than Quicksort implementations with fewer pivots.
