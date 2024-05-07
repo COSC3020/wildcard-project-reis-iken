@@ -1,6 +1,6 @@
 const fs = require('fs');
 const assert = require('assert');
-eval(fs.readFileSync('your_quicksort_file.js')+'');
+eval(fs.readFileSync('code.js')+'');
 
 assert.deepStrictEqual(quicksort6Pivot([]), []);
 assert.deepStrictEqual(quicksort6Pivot([1]), [1]);
