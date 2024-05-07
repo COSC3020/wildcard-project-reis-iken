@@ -33,7 +33,3 @@ function quicksort6Pivot(list) {
         return quicksort6Pivot(a).concat([pivot1], quicksort6Pivot(b), [pivot2], quicksort6Pivot(c), [pivot3], quicksort6Pivot(d), [pivot4], quicksort6Pivot(e), [pivot5], quicksort6Pivot(f), [pivot6], quicksort6Pivot(g));
     }
 }
-
-//Example usage:
-let arr = [5, 3, 8, 1, 2, 7, 6, 4, 9];
-console.log(quicksort6Pivot(arr));
